@@ -13,7 +13,7 @@ d3.csv('311_boston_data.csv').then(data => {
 
     // Set up SVG container
     const svgWidth = 800;
-    const svgHeight = 500;
+    const svgHeight = 550;
     const margin = { top: 40, right: 40, bottom: 80, left: 200 };
     const width = svgWidth - margin.left - margin.right;
     const height = svgHeight - margin.top - margin.bottom;

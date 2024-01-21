@@ -1,1 +1,28 @@
-<!-- Your HTML goes here -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+        <h3><marquee>Scroll Down for bonus content</marquee></h3>
+        <h1>Top 10 Reasons for 311 Calls</h1>
+        <h2>Enforcement & Abandoned vehicles along with Sanitation Issues remain the top reasons for 311 Calls</h2>
+    </header>
+    <div id="chart" class="chart-container"></div>
+    <hr>
+    <br> 
+    <h1>Bonus!!!!</h1>
+    <br>
+    <h1>Breakdown of 311 Calls' Department for each Neighborhood</h1>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="script.js"></script>
+    <div id="neighborhood-chart-container" class="chart-container"></div>
+    <select id="neighborhoodDropdown" class="neighborhood-dropdown"></select>
+    <footer>
+        <p>Data Source: <a href="https://data.boston.gov/dataset/311-service-requests">City of Boston 311 Service Requests</a></p>
+        <a href = "./311-basic">311-basic</a>
+    </footer>
+
+</body>
+</html>

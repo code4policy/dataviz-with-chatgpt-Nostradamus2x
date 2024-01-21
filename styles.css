@@ -1,0 +1,61 @@
+.chart-container {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto; /* Adjust the top and bottom margins as needed, or set them to 0 */
+}
+.bar {
+    fill: darkslateblue;
+}
+.bar:hover {
+    fill: orange;
+}
+.axis-label {
+    font-size: 14px;
+}
+header h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
+header h2 {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.neighborhood-dropdown {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 200px;
+}
+
+/* Styles for the second chart */
+#neighborhood-chart-container {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.chart-container {
+ 
+  width: 800px;
+  height: 500px;
+}
