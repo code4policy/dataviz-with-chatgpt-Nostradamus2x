@@ -1,5 +1,5 @@
 // Asynchronously fetch the data from the CSV file
-d3.csv('http://localhost:8000/311-basic/311_boston_data.csv')
+d3.csv('http://localhost:8000/311_boston_data.csv')
    .then(rawData => {
         // Convert 'Count' from string to number and sort data by 'Count'
         var data = rawData.map(d => {
